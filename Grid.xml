@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Grid" parallel="tests">
+	<test name="Grid 1">
+		<classes>
+			<class name="seleniumgrid.Grid1">
+			</class>
+		</classes>
+	</test>
+	<test name="Grid 2">
+		<classes>
+			<class name="seleniumgrid.Grid2">
+			</class>
+		</classes>
+	</test>
+	<test name="Grid 3">
+		<classes>
+			<class name="seleniumgrid.Grid3">
+			</class>
+		</classes>
+	</test>
+</suite>
